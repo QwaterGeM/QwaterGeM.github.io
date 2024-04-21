@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorkářský časopis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>Motorkářský časopis</h1>
+	<br>
+     <ul class="menu">
+        <li><a href="#">Úvodní stránka</a></li>
+        <li><a href="#">Novinky</a></li>
+        <li><a href="#">Fotogalerie</a></li>
+        <li><a href="#">Recenze</a></li>
+        <li><a href="#">O nás</a></li>
+        <li><a href="#">Kontakt</a></li>
+    </ul>
+  </header>
+  </header>
+
+    <main>
+        <section class="zaklad">
+            <h2>Vítejte v Motorkářském časopise</h2>
+            <p>Váš průvodce světem motorek, motocyklů a motocyklového sportu.</p>
+            <a href="#" class="btn">Zjistěte více</a>
+			<br>
+			<br>
+		<div class="hledat">
+            <form action="#">
+                <label for="vyhledavani">Hledat:</label>
+                <input type="text" id="vyhledavani" name="vyhledavani">
+                <button type="submit">Hledej</button>
+            </form>
+		</div>
+			<br>
+			<br>
+			<img src="Assets/motorka.jpg" alt="Motorka v pohybu" class="uvodni-img">
+        </section>
+
+        <section class="vyber">
+            <h2>Vyberte si, co vás zajímá:</h2>
+            <div class="kategorie">
+                <a href="#">Silniční motocykly</a>
+                <a href="#">Naked bikes</a>
+                <a href="#">Krosové motocykly</a>
+                <a href="#">Cestovní motorky</a>
+                <a href="#">Motardy</a>
+            </div>
+        </section>
+
+      <section class="novinky" itemscope itemtype="http://schema.org/ItemList">
+			<h2>Nejnovější články:</h2>
+			<br>
+			<article class="clanek" itemprop="itemListElement" itemscope itemtype="http://schema.org/NewsArticle">
+				<a href="#" itemprop="url">Nová Honda CBR650R: Sportovní legenda se vrací</a>
+				<img src="Assets/cbr650r.jpg" alt="Honda CBR650R" class="novinky-img" itemprop="image">
+				<p itemprop="description">Honda představuje novou generaci ikonického motocyklu CBR650R. Nabízí více výkonu, ovladatelnosti a komfortu.</p>
+				<time datetime="2024-04-20" itemprop="datePublished">20. dubna 2024</time>
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">Jméno autora</span>
+			</article>
+			<br>
+             <article class="clanek" itemprop="itemListElement" itemscope itemtype="http://schema.org/NewsArticle">
+                <a href="#" itemprop="url">Recenze: Ducati Pinagale - Silniční ďábel</a>
+                <img src="Assets/pinagale.jpg" alt="Ducati Multistrada V4 S" class="novinky-img" itemprop="image">
+                <p itemprop="description">Ducati Multistrada V4 S je motocykl, který zvládne cokoli. Je to sportovní cesťák, enduro i terénní motorka v jednom.</p>
+				<time datetime="2024-04-20" itemprop="datePublished">20. dubna 2024</time>
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">Jméno autora</span>
+            </article>
+			<br>
+             <article class="clanek" itemprop="itemListElement" itemscope itemtype="http://schema.org/NewsArticle">
+                <a href="#" itemprop="url">Motocyklový cestopis: Napříč Českem na BMW R 1250 GS</a>
+                <img src="Assets/bmw.jpg" alt="BMW R 1250 GS" class="novinky-img" itemprop="image">
+                <p itemprop="description">Podívejte se na úchvatné fotografie z motocyklového cestopisu po České republice na BMW R 1250 GS.</p>
+				<time datetime="2024-04-20" itemprop="datePublished">20. dubna 2024</time>
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">Jméno autora</span>
+            </article>
+			<br>
+			 <article class="clanek" itemprop="itemListElement" itemscope itemtype="http://schema.org/NewsArticle">
+				<a href="#" itemprop="url">Tipy pro bezpečnou jízdu na motocyklu v létě</a>
+				<img src="Assets/bezpecna.jpg" alt="Bezpečná jízda na motocyklu" class="novinky-img" itemprop="image">
+				<p itemprop="description">V létě je důležité dbát na bezpečnost při jízdě na motocyklu. Přinášíme vám užitečné tipy, jak si užít letní jízdu bez rizika.</p>
+				<time datetime="2024-04-20" itemprop="datePublished">20. dubna 2024</time>
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">Jméno autora</span>
+			</article>
+			<br>
+			 <article class="clanek" itemprop="itemListElement" itemscope itemtype="http://schema.org/NewsArticle">
+				<a href="#" itemprop="url">Honda CB1000R - Revoluční design a výkon</a>
+				<img src="Assets/honda.jpg" alt="Honda CB1000R" class="novinky-img" itemprop="image">
+				<p itemprop="description">Honda CB1000R přináší revoluční design spojený s výkonem, který si zamilujete. Podívejte se na naši recenzi tohoto špičkového modelu.</p>
+				<time datetime="2024-04-20" itemprop="datePublished">20. dubna 2024</time>
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">Jméno autora</span>
+			</article>
+			<br>
+			 <article class="clanek" itemprop="itemListElement" itemscope itemtype="http://schema.org/NewsArticle">
+				<a href="#" itemprop="url">Nová etapa - Elektrické motorky</a>
+				<img src="Assets/electric.jpg" alt="Porovnání motorek" class="novinky-img" itemprop="image">
+				<p itemprop="description ">Budoucnost dorazila v podobě nové elektrické motorkyznačky Honda.</p>
+				<time datetime="2024-04-20" itemprop="datePublished">20. dubna 2024</time>
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">Jméno autora</span>
+			</article>
+        </section>
+		<br>
+		<br>
+		<br>
+		<br>
+		<section class="fotogalerie" itemscope itemtype="http://schema.org/ImageGallery">
+			<h2>Fotogalerie</h2>
+			<div class="galerie">
+				<img src="Assets/r1.jpg" alt="Yamaha R1" class="galerie-img" itemprop="image">
+				<img src="Assets/r12.jpg" alt="Yamaha R1" class="galerie-img" itemprop="image">
+				<img src="Assets/agusta.jpg" alt="Agusta F3" class="galerie-img" itemprop="image">
+				<img src="Assets/kawasakih2.jpg" alt="Kawasaki H2R" class="galerie-img" itemprop="image">
+				<img src="Assets/ducati.jpg" alt="Ducati Pinagale" class="galerie-img" itemprop="image">
+				<img src="Assets/ducati2.jpg" alt="Ducati Pinagale" class="galerie-img" itemprop="image">
+			</div>
+		</section>
+		<br>
+		<br>
+		<section class="kontakt">
+  <h2>Zeptej se nás</h2>
+  <form action="#">
+    <label for="jmeno">Jméno a Příjmení:</label>
+    <input type="text" id="jmeno" name="jmeno">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="dotaz">Dotaz:</label>
+    <textarea id="dotaz" name="dotaz"></textarea>
+    <button type="submit">Odeslat</button>
+  </form>
+</section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Motorkářský časopis</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

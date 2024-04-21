@@ -1,0 +1,269 @@
+body {
+    background-image: url("Assets/89511.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+  }
+
+  header, main, footer {
+    padding: 25px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 50px auto 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .uvodni-img {
+    border: 2px solid #bebebe;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
+
+
+.hledat {
+    margin-top: 10px;
+}
+
+.hledat form {
+    margin-top: 10px; 
+}
+
+.hledat form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1; 
+    font-weight: bold;
+}
+
+.hledat form button:hover {
+    background-color: #0056b3;
+}
+
+header ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header ul.menu li {
+    display: inline-block;
+    margin: 0 0px;
+  }
+  
+  header ul.menu li a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  header ul.menu li a:hover {
+    background-color: #ccc;
+}
+
+
+/* Hlavní obsah */
+
+main {
+  padding-top: 40px;
+}
+
+.zaklad {
+  text-align: center;
+}
+
+.zaklad img {
+  margin-bottom: 20px;
+}
+
+.zaklad p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.zaklad .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.zaklad .btn:hover {
+  background-color: #0056b3;
+}
+
+.vyber {
+  margin-top: 33px;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.vyber h2 {
+  margin-bottom: 20px;
+}
+
+.vyber .kategorie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vyber .kategorie a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #ddd;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+}
+
+.vyber .kategorie a:hover {
+  background-color: #ccc;
+}
+
+.novinky {
+  margin-top: 40px;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.novinky h2 {
+  margin-bottom: 20px;
+}
+
+.novinky .clanek {
+    margin-bottom: 5px; 
+    padding-bottom: 20px;
+    text-align: left; 
+}
+  
+.novinky .clanek img {
+    width: 200px; 
+    height: 150px;
+    margin-right: 20px;
+    float: left; 
+}
+
+.novinky .clanek p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.novinky .clanek img {
+    width: 200px; 
+    height: 120px; 
+    margin-right: 20px;
+    float: left; 
+}
+.novinky .clanek .novinky-img:hover {
+    border: 1px solid #007bff;
+}
+
+.novinky .clanek time {
+  font-style: italic;
+  color: #999;
+}
+
+.novinky .clanek span {
+  display: block;
+  font-style: italic;
+  font
+}
+
+.fotogalerie .galerie {
+   border-bottom: 1px solid #6e6e6e;
+}
+
+.kontakt {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kontakt h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .kontakt label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .kontakt input[type="text"],
+  .kontakt input[type="email"],
+  .kontakt textarea {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .kontakt button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .kontakt button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
